@@ -44,7 +44,7 @@
         h5 Tabla 9.
         span <em>Estructura del estado de costo de ventas</em>
       img.d-md-block.mb-3(src="@/assets/curso/temas/tema2/img-29.svg" data-aos="fade-left")
-      figcaption Nota. Figura adaptada de “Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL” p. 260.
+      figcaption Nota. Tabla adaptada de “Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL” p. 260.
 
     Separador 
 
@@ -197,20 +197,6 @@
         h5 Figura 6.
         span <em>Clases de indicadores financieros</em>
       img.d-md-block.mb-3(src="@/assets/curso/temas/tema2/img-35.svg" data-aos="fade-left")
-
-    .tarjeta.color-primario.p-3.mt-3.caja_flotante_azul.col-md-9.m-auto.mb-5
-      .row.justify-content-around.align-items-center
-        .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/temas/tema1/descargar.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h4.mb-0(style="color: #FFFF") Indicadores financieros por categoría 
-              p.mt-3(style="color: #FFFF") En el siguiente documento se presentan algunos de los indicadores más importantes, clasificados según las categorías descritas previamente, así como una breve explicación que ofrece una aproximación a las interpretaciones de éstos:  
-            .col-sm-auto
-              a.boton.boton--b.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_Estructura_del_estado_de_situacion_financiera.pdf')" target="_blank")
-                span(style="color: #12263F !important;") Descargar
-                i.fas.fa-download(style="color: #12263F !important;") 
   
     Separador 
 

@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Estableciendo los conceptos de producción e informes financieros
-        p.mb-4 #[b Objetivo:] identificar conceptos relacionados con las características de la producción y su relación con los estados financieros, presentes en las empresas avicola
+        p.mb-4 #[b Objetivo:] identificar conceptos relacionados con las características de la producción y su relación con los estados financieros, presentes en las empresas avicola.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

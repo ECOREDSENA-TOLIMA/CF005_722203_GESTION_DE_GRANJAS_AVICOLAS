@@ -97,10 +97,10 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-4.png', alt='')  
       .col-12.col-md-7.mb-lg-0(data-aos="fade-left")
-        p Cuando se determina el costo de un producto, los elementos principales para tener en cuenta son la mano de obra y la materia prima directas. Sin embargo, existen muchos otros rubros asociados a la producción que, a pesar de no tener un vínculo directo con el producto terminado, son necesarios para llevarla a cabo. En este elemento deben incluirse todas las demás partidas que determinarán el costo final de producción de cada producto terminado.  
+        p Cuando se determina el costo de un producto, los elementos principales para tener en cuenta son la mano de obra y la materia prima directa. Sin embargo, existen muchos otros rubros asociados a la producción que, a pesar de no tener un vínculo directo con el producto terminado, son necesarios para llevarla a cabo. En este elemento deben incluirse todas las demás partidas que determinarán el costo final de producción de cada producto terminado.  
         .tarjeta.color-acento-contenido.p-4.d-flex.flex-wrap(data-aos="fade-right" style="background-color:#ABFFFF")
           .col-md-11.ps-lg-4
-            p.mb-0(style="color: #000") Este elemento incluye una gran variedad de rubros de diversa índole que requiere diferentes sistemas para calcular su valor. La parte indirecta de la materia prima y la mano de obra son algunos de los conceptos a incluir en este, así como partidas que no se pueden asociar de forma directa a cada producto, como los arrendamientos o los mantenimientos de la maquinaria. 
+            p.mb-0(style="color: #000") Este elemento incluye una gran variedad de rubros de diversa índole, que requiere diferentes sistemas para calcular su valor. La parte indirecta de la materia prima y la mano de obra, son algunos de los conceptos a incluir en este, así como partidas que no se pueden asociar de forma directa a cada producto, como los arrendamientos o los mantenimientos de la maquinaria. 
 
     Separador 
 
@@ -335,7 +335,7 @@
               .h4.mb-0(style="color: #FFFF") Anexo 1 - Hoja de kárdex.
               p.mt-3(style="color: #FFFF") Se determina el inventario final y el costo de la materia prima a través de los dos sistemas, para informarse al respecto diríjase al Anexo 1 - Hoja de kárdex, en donde podrá encontrar ejemplos al respecto.
             .col-sm-auto
-              a.boton.boton--b.color-acento-botones(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745" target="_blank")
+              a.boton.boton--b.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_Hoja_de_kárdex.pdf')" target="_blank")
                 span(style="color: #12263F !important;") Descargar
                 i.fas.fa-download(style="color: #12263F !important;")
 
@@ -475,7 +475,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0  
-                  p Estos cálculos pueden automatizarse haciendo uso de hojas de cálculo; en ellas pueden agregarse tantos empleados como se desee, siempre y cuando se parametricen de forma adecuada las tarifas y montos. Existen softwares gerenciales o contables que cuentan con módulos específicos de nómina, pero requieren de compra de licencias vitalicias o suscripciones periódicas, por lo que son recomendables cuando la empresa cuenta con la rentabilidad necesaria para asumir este nuevo costo.
+                  p Estos cálculos pueden automatizarse haciendo uso de hojas de cálculo; en ellas pueden agregarse tantos empleados como se desee, siempre y cuando se parametricen de forma adecuada las tarifas y montos. Existen <em>softwares</em> gerenciales o contables que cuentan con módulos específicos de nómina, pero requieren de compra de licencias vitalicias o suscripciones periódicas, por lo que son recomendables cuando la empresa cuenta con la rentabilidad necesaria para asumir este nuevo costo.
 
     .tarjeta.color-primario.p-3.mt-3.caja_flotante_azul.col-md-9.m-auto.mb-5
       .row.justify-content-around.align-items-center
@@ -507,8 +507,8 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-20.png', alt='')  
       .col-12.col-md-6.mb-lg-0(data-aos="fade-left")
-        p Asignar los costos indirectos requiere de un juicio claro para determinar, en primera medida, si efectivamente corresponden a la producción, y, en segundo lugar, a qué línea productiva. Si se fabrica varios productos en cantidades variadas, es necesario definir cuánto de cada costo indirecto corresponde a cada tipo de producto según diversos elementos de juicio, posteriormente, solo restará distribuir de manera proporcional según las unidades producidas. 
-        p El criterio para definir cuánto de costo corresponde a una línea de producción o área funcional de la fábrica dependerá del juicio del jefe de producción. En el caso del costeo por órdenes, pueden asignarse la cantidad de materiales utilizados o las horas de trabajo destinadas en el mes, y con ello determinar las proporciones. Cuando se utiliza un modelo de costeo estándar, donde se cuenta con una programación estimada, pueden usarse dichas proyecciones en función de unidades producidas. 
+        p Asignar los costos indirectos requiere de un juicio claro para determinar, en primera medida, si efectivamente corresponden a la producción, y, en segundo lugar, a qué línea productiva. Si se fabrican varios productos en cantidades variadas, es necesario definir cuánto de cada costo indirecto corresponde a cada tipo de producto según diversos elementos de juicio, posteriormente, solo restará distribuir de manera proporcional según las unidades producidas. 
+        p El criterio para definir cuánto de costo corresponde a una línea de producción o área funcional de la fábrica, dependerá del juicio del jefe de producción. En el caso del costeo por órdenes, pueden asignarse la cantidad de materiales utilizados o las horas de trabajo destinadas en el mes, y con ello determinar las proporciones. Cuando se utiliza un modelo de costeo estándar, donde se cuenta con una programación estimada, pueden usarse dichas proyecciones en función de unidades producidas. 
         p Para ilustrar lo anterior, se presenta el siguiente ejemplo: 
 
     .col-xl-8.mx-auto.mb-5
@@ -533,7 +533,7 @@
         span <em>Asignación de costos indirectos de fabricación</em>
       img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-left")
 
-    p.mb-5 Una vez son definidos los costos unitarios de materia prima, mano de obra y costos indirectos de fabricación solo resta consolidarlos en una orden de producción para establecer el valor total que cuesta producirlos.  
+    p.mb-5 Una vez son definidos los costos unitarios de materia prima, mano de obra y costos indirectos de fabricación, solo resta consolidarlos en una orden de producción para establecer el valor total que cuesta producirlos.  
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h3#t_1_1 Aplicativos informáticos 
@@ -573,16 +573,16 @@
     .col-xl-10.mx-auto.mb-5
       .cajon.color-acento-contenido.p-4.d-flex.flex-wrap.mb-5(data-aos="fade-right")
         .col-md-11.ps-lg-4
-          p Los programas contables usualmente ofrecen sistemas de control de existencias de inventarios compatibles con lo estudiado hasta ahora, pero carecen de funcionalidades más específicas como el cálculo de los costos indirectos de fabricación. Algunos de ellos ofrecen la posibilidad de liquidar las nóminas de manera asistida, tras el registro de datos básicos para efectuar los cálculos correspondientes.  
+          p Los programas contables usualmente ofrecen sistemas de control de existencias de inventarios compatibles con lo estudiado hasta ahora, pero carecen de funcionalidades más específicas como el cálculo de los costos indirectos de fabricación. Algunos de ellos, ofrecen la posibilidad de liquidar las nóminas de manera asistida tras el registro de datos básicos, para efectuar los cálculos correspondientes.  
             br
             br
-            | El paso de hojas de cálculo a sistemas contables básicos es un paso recurrente en la formalización de los registros en cualquier empresa en crecimiento. El principal factor limitante en este sentido es el costo de implementación de cualquier aplicativo de pago. Es por ello que a día de hoy existen modalidades para hacerse con una herramienta de este estilo, las más comunes son las siguientes: 
+            | El paso de hojas de cálculo a sistemas contables básicos es un paso recurrente en la formalización de los registros en cualquier empresa en crecimiento. El principal factor limitante en este sentido es el costo de implementación de cualquier aplicativo de pago. Es por ello, que al día de hoy, existen modalidades para hacerse con una herramienta de este estilo, las más comunes son las siguientes: 
 
     TabsB.color-primario.mb-5
       .py-4.py-md-5.px-5(titulo="Licencia vitalicia")
         .row
-          .col-md-12.mb-4.mb-md-0
-            p Se paga la licencia de uso una única vez y con ella se puede utilizar el software de manera permanente, usualmente ofrecen anualidades para actualizar de acuerdo a las novedades normativas o implementación de nuevas características. Este modelo implica un gasto significativo en el corto plazo, pero que resulta más económico en el largo plazo. 
+          .col-md-12.mb-4.mb-md-0 
+            p Se paga la licencia de uso una única vez y con ella se puede utilizar el <em>software</em> de manera permanente, usualmente ofrecen anualidades para actualizar de acuerdo a las novedades normativas o implementación de nuevas características. Este modelo implica un gasto significativo en el corto plazo, pero que resulta más económico en el largo plazo. 
 
       .py-4.py-md-5.px-5(titulo="Sistema de suscripción")
         .row
@@ -592,7 +592,7 @@
       .py-4.py-md-5.px-5(titulo="Versiones <em>“demo”</em> o de licencia estudiantil")
         .row
           .col-md-12.mb-4.mb-md-0
-            p Algunos programas otorgan acceso a funcionalidades limitadas para comprender su funcionamiento o llevar a cabo tareas muy concretas. Usualmente emiten informes con marcas de agua para evitar su uso comercial. Esta metodología es recomendable cuando no se tiene certeza de si el software se adapta a las necesidades de la empresa. 
+            p Algunos programas otorgan acceso a funcionalidades limitadas para comprender su funcionamiento o llevar a cabo tareas muy concretas. Usualmente emiten informes con marcas de agua para evitar su uso comercial. Esta metodología es recomendable cuando no se tiene certeza de si el <em>software</em> se adapta a las necesidades de la empresa. 
 
       
 

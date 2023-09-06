@@ -57,7 +57,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Informes financierosl',
+        titulo: 'Informes financieros',
         desarrolloContenidos: true,
         subMenu: [
           {
