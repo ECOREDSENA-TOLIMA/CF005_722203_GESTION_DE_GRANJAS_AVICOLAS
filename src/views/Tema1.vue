@@ -105,7 +105,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.2 Clasificación 
+      h2#t_1_2 1.2 Clasificación 
 
     p.mb-5 Teniendo claro el concepto de costo y los elementos que lo integran es posible clasificarlos según diversos criterios, los siguientes son los sistemas de clasificación de mayor aceptación: 
 
@@ -135,7 +135,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.3  Normativa contable
+      h2#t_1_3 1.3  Normativa contable
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -194,7 +194,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.4  Metodología de costos 
+      h2#t_1_4 1.4  Metodología de costos 
     
     .col-xl-12.mx-auto.mb-5
       .cajon.color-acento-contenido.p-4.d-flex.flex-wrap.mb-5(data-aos="fade-right")
@@ -233,7 +233,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.5 Cálculo 
+      h2#t_1_5 1.5 Cálculo 
 
     p.mb-5 Previamente se describieron los tres elementos del costo de producción, así como aquellas características o condiciones que permiten clasificar cada insumo como uno de ellos. Ahora bien, una vez se tiene claridad de su naturaleza, el siguiente paso consiste en estimar su costo según los procedimientos técnicos recomendados.
 

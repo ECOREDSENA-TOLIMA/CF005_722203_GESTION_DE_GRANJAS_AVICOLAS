@@ -17,7 +17,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.1 Estado de costos 
+      h2#t_2_1 2.1 Estado de costos 
 
     .col-12.d-flex.flex-wrap.align-items-center.p-2.mb-5
       .col-12.col-md-3.col-lg-1
@@ -49,7 +49,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.2 Estado de resultados  
+      h2#t_2_2 2.2 Estado de resultados  
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.col-12.col-lg-7
@@ -68,7 +68,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.3 Estado de situación financiera 
+      h2#t_2_3 2.3 Estado de situación financiera 
 
     .col-12.d-flex.flex-wrap.align-items-center.p-2.mb-4
       .col-12.col-md-3.col-lg-1
@@ -114,7 +114,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.4 Presentación de estados financieros 
+      h2#t_2_4 2.4 Presentación de estados financieros 
 
     .cajon-b.color-acento-botones.mt-3.mb-5
       p Las normas internacionales de información financiera para pequeñas y medianas empresas (2015) demandan una serie de requisitos a la hora de presentar los estados financieros. Entre ellos destacan los siguientes: 
@@ -180,7 +180,7 @@
     Separador 
     
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.5 Indicadores financieros
+      h2#t_2_5 2.5 Indicadores financieros
 
     .d-flex.flex-wrap.mb-5
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
@@ -201,7 +201,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 2.6 Acciones de mejora 
+      h2#t_2_6 2.6 Acciones de mejora 
 
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-md-6.mb-5.mb-lg-0(data-aos="fade-right")
