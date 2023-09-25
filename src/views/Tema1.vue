@@ -18,9 +18,8 @@
           p La primera distinción que debe plantearse es aquella que los separe de los gastos. Los costos implican erogaciones de capital con aplicación a futuro, se compran los insumos con la expectativa de transformarlos en productos a ser vendidos, por lo que en su definición se encuentra implícita una retribución esperada. Los gastos, por otra parte, resultan de la mecánica inversa, corresponden también a salidas de capital, pero asociadas a algún beneficio recibido previamente; por ejemplo, el pago de comisiones a un vendedor quien las recibe por la buena gestión comercial que tuvo durante el mes anterior.  
 
     Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.1. Elementos 
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.1 Elementos 
 
     .col-xl-10.mx-auto.mb-5
       .cajon.color-acento-contenido.p-4.d-flex.flex-wrap.mb-5(data-aos="fade-right")
@@ -28,7 +27,7 @@
           p Entendiendo el costo como un insumo para producir bienes o servicios, el siguiente paso es definir cuáles son los elementos que lo componen. Todo producto requiere de 3 tipos de insumos: materia prima, mano de obra, y otros costos indirectos de fabricación. A continuación, se desarrollará en mayor detalle cada uno de ellos.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Materia prima 
+      h3 Materia prima 
 
     p Se compone de todos los materiales que se utilizan en la elaboración del producto. Son los insumos tangibles susceptibles de ser transformados en el proceso productivo; pueden clasificarse como directos o indirectos según su relevancia y relación con el producto en producción.  
     p.mb-5 Para determinar si la materia prima es directa, se puede evaluar el cumplimiento de por lo menos uno de los siguientes dos conceptos: materialidad e importancia relativa. 
@@ -57,11 +56,11 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 1.
         span <em>Costos asociados a la materia prima</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-left")
+      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-left" alt="En la figura 1 se muestran los costos asociados a la materia prima.")
       figcaption Nota. Adaptada de Guarnizo y Cárdenas, (2015).
     
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Mano de obra 
+      h3 Mano de obra 
 
     .d-flex.flex-wrap.mb-5
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
@@ -90,7 +89,7 @@
                   p Corresponde al líder del área de producción, determinar el alcance de estos costos adicionales; por ejemplo, según su criterio, podrían incluirse también los costos asociados al proceso de reclutamiento del personal operativo, los auxilios o las capacitaciones, entre otros.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Costos indirectos de fabricación 
+      h3 Costos indirectos de fabricación 
 
     .row.mb-3.justify-content-center.align-items-center
       .col-12.col-md-5.mb-5.mb-lg-0(data-aos="fade-right")
@@ -103,9 +102,8 @@
             p.mb-0(style="color: #000") Este elemento incluye una gran variedad de rubros de diversa índole, que requiere diferentes sistemas para calcular su valor. La parte indirecta de la materia prima y la mano de obra, son algunos de los conceptos a incluir en este, así como partidas que no se pueden asociar de forma directa a cada producto, como los arrendamientos o los mantenimientos de la maquinaria. 
 
     Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_2 1.2 Clasificación 
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.2 Clasificación 
 
     p.mb-5 Teniendo claro el concepto de costo y los elementos que lo integran es posible clasificarlos según diversos criterios, los siguientes son los sistemas de clasificación de mayor aceptación: 
 
@@ -114,7 +112,7 @@
 
         .row(titulo="Según su relación con la producción")
           .col-md-12.mb-4.mb-md-0
-            p Se clasifican como costos variables, entendidos como los que sufren modificaciones con el incremento o disminución de la producción. Al ser una relación directa, puede preverse el comportamiento de estos en función de la proyección de unidades a producir, un ejemplo de ello es la madera necesaria para elaborar sillas, a mayor cantidad de sillas a producir, más madera se necesitará. Por otro lado, se encuentran los costos fijos, que no varían en función de la producción, por ejemplo, el valor del arriendo donde se ubica la fábrica siempre será el mismo se les de uso o no a la maquinaria.  
+            p Se clasifican como costos variables, entendidos como los que sufren modificaciones con el incremento o disminución de la producción. Al ser una relación directa, puede preverse el comportamiento de estos en función de la proyección de unidades a producir, un ejemplo de ello es la madera necesaria para elaborar sillas, a mayor cantidad de sillas a producir, más madera se necesitará. Por otro lado, se encuentran los costos fijos, que no varían en función de la producción, por ejemplo, el valor del arriendo donde se ubica la fábrica siempre será el mismo, se les dé uso o no a la maquinaria.  
 
         .row(titulo="Según su relación con el producto")
           .col-md-12.mb-4.mb-md-0
@@ -130,12 +128,11 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 2.
         span <em>Clasificación de los costos</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-5.svg" data-aos="fade-left")
+      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-5.svg" data-aos="fade-left" alt="En la figura 2 se muestra la clasificación de los costos.")
 
-    Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_3 1.3  Normativa contable
+    Separador
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.3  Normativa contable
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -168,14 +165,14 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 3.
         span <em>Normatividad contable en Colombia</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-7.svg" data-aos="fade-left")
+      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-7.svg" data-aos="fade-left" alt="En la figura 3 se muestra la normatividad contable en Colombia.")
 
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-md-5.mb-5.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img-8.png', alt='')  
       .col-12.col-md-7.mb-lg-0(data-aos="fade-left")
-        p Comprendiendo el esquema normativo de la contabilidad en Colombia, resulta relevante remarcar que acorde al Ministerio del trabajo (2019), según cifras del Departamento Administrativo Nacional de Estadística, más del 90% del sector productivo nacional se encuentra compuesto por micros, pequeñas y medianas empresas; lo que implica que la economía en Colombia es mayoritariamente impulsada por empresas que aplican la contabilidad de los grupos 2 y 3 mencionados previamente.   
+        p Comprendiendo el esquema normativo de la contabilidad en Colombia, resulta relevante remarcar que acorde al Ministerio del trabajo (2019), según cifras del Departamento Administrativo Nacional de Estadística, más del 90 % del sector productivo nacional se encuentra compuesto por micros, pequeñas y medianas empresas; lo que implica que la economía en Colombia es mayoritariamente impulsada por empresas que aplican la contabilidad de los grupos 2 y 3 mencionados previamente.   
         p Los 3 modelos contables obedecen a una estructura básica financiera, por un lado, un estado de situación financiera o balance general, que comprende los bienes controlados por la empresa (activo), las deudas (pasivo) y su diferencia (patrimonio).  
         p Por otra parte, el estado de resultados, en el que se registran los ingresos generados en un periodo determinado, así como todos los costos y gastos, tengan o no relación con la actividad operacional y la generación de ingresos. La mecánica general implica que a los ingresos se le deducen los costos y gastos, si la diferencia es positiva se genera utilidad, en el caso contrario, se considera pérdida. 
 
@@ -189,12 +186,11 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 4.
         span <em>Dinámica contable de los costos</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-9.svg" data-aos="fade-left")
+      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-9.svg" data-aos="fade-left" alt="En la figura 4 se muestra la dinámica contable de los costos.")
 
     Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_4 1.4  Metodología de costos 
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4  Metodología de costos 
     
     .col-xl-12.mx-auto.mb-5
       .cajon.color-acento-contenido.p-4.d-flex.flex-wrap.mb-5(data-aos="fade-right")
@@ -231,14 +227,13 @@
               p.text-small Es el modelo más preciso dado que contempla todos los factores relevantes a la hora de estimar el costo de producción de un bien, pero su implementación resulta bastante compleja. Es ideal para líneas de producción que no sufren variaciones significativas en el tiempo, dado que cualquier cambio implicará volver a estimar el costo estándar de cada producto. 
 
     Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_5 1.5 Cálculo 
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.5 Cálculo 
 
     p.mb-5 Previamente se describieron los tres elementos del costo de producción, así como aquellas características o condiciones que permiten clasificar cada insumo como uno de ellos. Ahora bien, una vez se tiene claridad de su naturaleza, el siguiente paso consiste en estimar su costo según los procedimientos técnicos recomendados.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Materia prima 
+      h3 Materia prima 
 
     p.mb-4 La estimación del costo de la materia prima debe comprender la inclusión de todas aquellas erogaciones asociadas con la adquisición y puesta en disposición de los materiales para ser utilizados. Los sistemas utilizados para la valoración de inventarios en Colombia son el periódico y el permanente. 
 
@@ -262,7 +257,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-12.png', alt='')  
       .col-12.col-md-7.mb-lg-0(data-aos="fade-left")
-        p Este sistema suele ser utilizado en la empresa con una muy baja inversión en tecnología puesto que las herramientas actuales brindan cada vez más herramientas para utilizar el sistema permanente. Debido a su naturaleza periódica, el cálculo de la materia prima solo se reconoce al finalizar el periodo, por lo que se puede ver comprometida la toma de decisiones.
+        p Este sistema suele ser utilizado en la empresa con una muy baja inversión en tecnología, puesto que las herramientas actuales brindan cada vez más herramientas para utilizar el sistema permanente. Debido a su naturaleza periódica, el cálculo de la materia prima solo se reconoce al finalizar el periodo, por lo que se puede ver comprometida la toma de decisiones.
         p Por ejemplo, una panadería debe comprar los ingredientes para llevar a cabo la producción de los diferentes tipos de pan y galletería que ofrece; con una toma de inventario físico a cierre de un año, tendrá claridad sobre la materia prima final de dicho año y la inicial del siguiente. Aplicando la fórmula descrita, podría definir cuánta harina utilizó en el año, tomando de base la que tenía al empezar el año, sumando la que compró y restando las existencias sin utilizar que quedarán para utilizar el año siguiente.  
 
     .row.justify-content-center.align-items-center.mb-5
@@ -335,7 +330,7 @@
               .h4.mb-0(style="color: #FFFF") Anexo 1 - Hoja de kárdex.
               p.mt-3(style="color: #FFFF") Se determina el inventario final y el costo de la materia prima a través de los dos sistemas, para informarse al respecto diríjase al Anexo 1 - Hoja de kárdex, en donde podrá encontrar ejemplos al respecto.
             .col-sm-auto
-              a.boton.boton--b.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_Hoja_de_kárdex.pdf')" target="_blank")
+              a.boton.boton--b.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_Hoja_de_kardex.pdf')" target="_blank")
                 span(style="color: #12263F !important;") Descargar
                 i.fas.fa-download(style="color: #12263F !important;")
 
@@ -348,7 +343,7 @@
       img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-14.svg" data-aos="fade-left")
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Mano de obra 
+      h3 Mano de obra 
 
     p.mb-5 Para determinar el costo de la mano de obra se deben tener presentes los lineamientos de la normatividad laboral en Colombia. Un contrato de trabajo se compone por un salario básico, unas prestaciones sociales, unos aportes parafiscales y de seguridad social, y todas las demás retribuciones que se le ofrezcan al empleado.  
 
@@ -401,7 +396,7 @@
         .row
           .col-md-12.col-12
             h3 Intereses a las cesantías 
-            p Todo empleador obligado a pagar cesantía a sus trabajadores conforme al Capítulo VII Título VIII, Parte 1ª, del Código Sustantivo del Trabajo y demás disposiciones concordantes, les reconocerá y pagará intereses del 12% anual sobre los saldos que, en 31 de diciembre de cada año, o en las fechas de retiro del trabajador o de liquidación parcial de cesantía, tenga este a su favor por concepto de cesantía. (Ley 52, 1975, Artículo 1). 
+            p Todo empleador obligado a pagar cesantía a sus trabajadores conforme al Capítulo VII Título VIII, Parte 1ª, del Código Sustantivo del Trabajo y demás disposiciones concordantes, les reconocerá y pagará intereses del 12 % anual sobre los saldos que, en 31 de diciembre de cada año, o en las fechas de retiro del trabajador o de liquidación parcial de cesantía, tenga este a su favor por concepto de cesantía. (Ley 52, 1975, Artículo 1). 
 
       .tarjeta.color-primario--borde1.p-4(titulo="Auxilio de transporte ")
         .row
@@ -424,7 +419,7 @@
                 i.fas.fa-link(style="color: #12263F !important;")
 
     .cajon-b.color-acento-botones.mt-3.mb-5
-      p Para definir cómo calcular el costo de los factores anteriores, es necesario considerar el tiempo necesario para hacerse acreedor a ellos. La prima y las cesantías corresponden a un mes de salario por cada año trabajado, por lo que puede calcularse una proporcionalidad de 1/12, o lo que es equivalente, el 8,33 %. Las vacaciones, por su parte, corresponden a una quincena por año trabajado, por lo que su proporción será del 4,17%. Lo anterior significa que cada mes, el empleado se hará beneficiario de unas prestaciones equivalentes a esa porción del salario. La siguiente tabla consolida lo descrito previamente:  
+      p Para definir cómo calcular el costo de los factores anteriores, es necesario considerar el tiempo necesario para hacerse acreedor a ellos. La prima y las cesantías corresponden a un mes de salario por cada año trabajado, por lo que puede calcularse una proporcionalidad de 1/12, o lo que es equivalente, el 8,33 %. Las vacaciones, por su parte, corresponden a una quincena por año trabajado, por lo que su proporción será del 4,17 %. Lo anterior significa que cada mes, el empleado se hará beneficiario de unas prestaciones equivalentes a esa porción del salario. La siguiente tabla consolida lo descrito previamente:  
 
     .col-xl-8.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
@@ -444,7 +439,7 @@
     .col-12.d-flex.flex-wrap.align-items-center.p-2.mb-4
       .col-12.col-md-3.col-lg-1
         img.mb-4.mb-md-0.mx-auto(src="@/assets/curso/temas/tema1/img-17.svg" data-aos="fade-right" style="max-width: 100px")
-      p.col.mb-0.col-md-9.col-lg-11.ps-lg-4(data-aos="fade-left") El estatuto tributario indica en su artículo 114-1 que las personas jurídicas contribuyentes del impuesto de renta se encuentran exonerados del aporte del 8,5 % por concepto de salud, así como de los aportes parafiscales al SENA (2%) e ICBF (3%) correspondientes a los empleados que ganen menos de 10 SMMLV. Para el caso de las personas naturales empleadoras, este beneficio aplicará solo si cuentan con dos o más trabajadores. 
+      p.col.mb-0.col-md-9.col-lg-11.ps-lg-4(data-aos="fade-left") El estatuto tributario indica en su artículo 114-1 que las personas jurídicas contribuyentes del impuesto de renta se encuentran exonerados del aporte del 8,5 % por concepto de salud, así como de los aportes parafiscales al SENA (2 %) e ICBF (3 %) correspondientes a los empleados que ganen menos de 10 SMMLV. Para el caso de las personas naturales empleadoras, este beneficio aplicará solo si cuentan con dos o más trabajadores. 
         br
         br
         | La liquidación de los pagos a los empleados suele consolidarse en una hoja de trabajo conocida como nómina. En ella se detallan todos los pagos y deducciones asociados a cada trabajador y a partir de esta información es posible asignar el costo de mano de obra dependiendo del tiempo estimado que cada empleado le designe a la transformación del producto. 
@@ -475,7 +470,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0  
-                  p Estos cálculos pueden automatizarse haciendo uso de hojas de cálculo; en ellas pueden agregarse tantos empleados como se desee, siempre y cuando se parametricen de forma adecuada las tarifas y montos. Existen <em>softwares</em> gerenciales o contables que cuentan con módulos específicos de nómina, pero requieren de compra de licencias vitalicias o suscripciones periódicas, por lo que son recomendables cuando la empresa cuenta con la rentabilidad necesaria para asumir este nuevo costo.
+                  p Estos cálculos pueden automatizarse haciendo uso de hojas de cálculo; en ellas pueden agregarse tantos empleados como se desee, siempre y cuando se parametricen de forma adecuada las tarifas y montos. Existen <em>software</em> gerenciales o contables que cuentan con módulos específicos de nómina, pero requieren de compra de licencias vitalicias o suscripciones periódicas, por lo que son recomendables cuando la empresa cuenta con la rentabilidad necesaria para asumir este nuevo costo.
 
     .tarjeta.color-primario.p-3.mt-3.caja_flotante_azul.col-md-9.m-auto.mb-5
       .row.justify-content-around.align-items-center
@@ -500,7 +495,7 @@
       img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-19.svg" data-aos="fade-left")
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Costos indirectos de fabricación 
+      h3 Costos indirectos de fabricación 
 
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-md-6.mb-5.mb-lg-0(data-aos="fade-right")
@@ -536,7 +531,7 @@
     p.mb-5 Una vez son definidos los costos unitarios de materia prima, mano de obra y costos indirectos de fabricación, solo resta consolidarlos en una orden de producción para establecer el valor total que cuesta producirlos.  
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Aplicativos informáticos 
+      h3 Aplicativos informáticos 
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(

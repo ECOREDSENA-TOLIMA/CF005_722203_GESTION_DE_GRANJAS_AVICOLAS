@@ -227,15 +227,15 @@ export default {
     },
     {
       referencia:
-        'Ministerio del trabajo (2019) “Cotización a la Seguridad Social - Aportes”',
+        'Ministerio del trabajo (2019) “Sistema de Afiliación Transaccional SAT - Pensiones”',
       link:
-        'https://www.mintrabajo.gov.co/empleo-y-pensiones/empleo/subdireccion-de-formalizacion-y-proteccion-del-empleo/formalizacion-laboral/cotizacion-a-la-seguridad-social-aportes.',
+        'https://www.mintrabajo.gov.co/web/guest/empleo-y-pensiones/pensiones/sistema-de-afiliacion-transaccional-sat-pensiones',
     },
     {
       referencia:
-        'Ministerio del trabajo (2019) “MiPymes representan más de 90% del sector productivo nacional y generan el 80% del empleo en Colombia: ministra Alicia Arango”',
+        'Ministerio del trabajo (2019) “MiPymes representan más de 90 % del sector productivo nacional y generan el 80 % del empleo en Colombia: ministra Alicia Arango”',
       link:
-        'https://www.mintrabajo.gov.co/prensa/comunicados/2019/septiembre/mipymes-representan-mas-de-90-del-sector-productivo-nacional-y-generan-el-80-del-empleo-en-colombia-ministra-alicia-arango.',
+        'https://www.mintrabajo.gov.co/prensa/comunicados/2019/septiembre/mipymes-representan-mas-de-90-del-sector-productivo-nacional-y-generan-el-80-del-empleo-en-colombia-ministra-alicia-arango',
     },
     {
       referencia:

@@ -15,9 +15,8 @@
         p.mb-0 Los informes financieros buscan reflejar la situación de la empresa a una fecha determinada, para ello existen diferentes estructuras enfocadas a satisfacer las necesidades de diferentes usuarios de la información. Su periodicidad, nivel de detalle y partidas a presentar, son aspectos tan variables que pueden elaborarse a la medida para analizar problemáticas o tendencias en específico. Para dar continuidad a los temas expuestos, se propone el análisis de tres estados: de costos, de resultados y de situación financiera.  
     
     Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_1 2.1 Estado de costos 
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.1 Estado de costos 
 
     .col-12.d-flex.flex-wrap.align-items-center.p-2.mb-5
       .col-12.col-md-3.col-lg-1
@@ -31,7 +30,7 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 5.
         span <em>Proceso del costo de ventas</em>
-      img.d-md-block(src="@/assets/curso/temas/tema2/img-28.svg" data-aos="fade-left")
+      img.d-md-block(src="@/assets/curso/temas/tema2/img-28.svg" data-aos="fade-left" alt="En la figura 5 se muestra el proceso del costo de ventas.")
       figcaption Nota. Figura adaptada de “Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL”, p. 260.
 
     .col-xl-10.mx-auto.mb-5
@@ -47,14 +46,13 @@
       figcaption Nota. Tabla adaptada de “Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL” p. 260.
 
     Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_2 2.2 Estado de resultados  
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.2 Estado de resultados  
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.col-12.col-lg-7
         p Este informe contiene partidas financieras como los ingresos operacionales, el costo de ventas, los gastos administrativos y de ventas, y los demás ingresos y gastos no operativos. Como su nombre lo indica, con él se busca medir el resultado de las operaciones de la empresa, tengan o no con el objeto social con el que fue concebida.  Se encuentra relacionado con el estado de costos, puesto que este último detalla el cálculo del costo de ventas, valor que se lleva al estado de resultados para determinar la utilidad bruta de la sociedad, es decir, la ganancia resultante de los ingresos operativos menos sus costos de producción. 
-        p El estado de resultados discrimina los ingresos según su relación con la actividad operacional, el costo de ventas, por otra parte, corresponde al costo de producción de los bienes o servicios vendidos. Los gastos se discriminan por función o naturaleza, según las preferencias o necesidades del emisor. Las ganancias serán el resultado de restar los costos y gastos a los ingresos de cada categoría. La utilidad neta del ejercicio contemplará el gasto por el impuesto de renta, también conocido como impuesto a las ganancias, debido que se calcula al multiplicar una tarifa por el excedente fiscal del ejercicio.  
+        p El estado de resultados discrimina los ingresos según su relación con la actividad operacional, el costo de ventas, por otra parte, corresponde al costo de producción de los bienes o servicios vendidos. Los gastos se discriminan por función o naturaleza, según las preferencias o necesidades del emisor. Las ganancias serán el resultado de restar los costos y gastos a los ingresos de cada categoría. La utilidad neta del ejercicio contemplará el gasto por el impuesto de renta, también conocido como impuesto a las ganancias, debido a que se calcula al multiplicar una tarifa por el excedente fiscal del ejercicio.  
       .col-md-4.col-12.col-lg-5
         figure
           img(src='@/assets/curso/temas/tema2/img-30.png', alt='')
@@ -66,9 +64,8 @@
       img.d-md-block.mb-3(src="@/assets/curso/temas/tema2/img-31.svg" data-aos="fade-left")
 
     Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_3 2.3 Estado de situación financiera 
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.3 Estado de situación financiera 
 
     .col-12.d-flex.flex-wrap.align-items-center.p-2.mb-4
       .col-12.col-md-3.col-lg-1
@@ -112,9 +109,8 @@
                 i.fas.fa-download(style="color: #12263F !important;")   
 
     Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_4 2.4 Presentación de estados financieros 
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.4 Presentación de estados financieros 
 
     .cajon-b.color-acento-botones.mt-3.mb-5
       p Las normas internacionales de información financiera para pequeñas y medianas empresas (2015) demandan una serie de requisitos a la hora de presentar los estados financieros. Entre ellos destacan los siguientes: 
@@ -177,10 +173,9 @@
                 .col.mb-3.mb-sm-0  
                   p La información complementaria se anexará como notas a los estados financieros, en ella se detallarán aquellos aspectos que la norma exija para cada tipo de partidas. Adicionalmente, en las notas deberá indicarse el domicilio de la empresa y el país donde fue constituida, así como una descripción de las operaciones de la entidad y sus principales actividades. 
 
-    Separador 
-    
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_5 2.5 Indicadores financieros
+    Separador     
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.5 Indicadores financieros
 
     .d-flex.flex-wrap.mb-5
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
@@ -196,12 +191,11 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 6.
         span <em>Clases de indicadores financieros</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema2/img-35.svg" data-aos="fade-left")
+      img.d-md-block.mb-3(src="@/assets/curso/temas/tema2/img-35.svg" data-aos="fade-left" alt="En la figura 6 se muestran las clases de indicadores financieros.")
   
     Separador 
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_6 2.6 Acciones de mejora 
+    #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.6 Acciones de mejora 
 
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-md-6.mb-5.mb-lg-0(data-aos="fade-right")
