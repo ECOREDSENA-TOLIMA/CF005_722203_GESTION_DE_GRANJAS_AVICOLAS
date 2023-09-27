@@ -111,15 +111,15 @@
       PasosB.color-acento-contenido
 
         .row(titulo="Según su relación con la producción")
-          .col-md-12.mb-4.mb-md-0
+          .col-10.col-lg-12.mb-4.mb-md-0
             p Se clasifican como costos variables, entendidos como los que sufren modificaciones con el incremento o disminución de la producción. Al ser una relación directa, puede preverse el comportamiento de estos en función de la proyección de unidades a producir, un ejemplo de ello es la madera necesaria para elaborar sillas, a mayor cantidad de sillas a producir, más madera se necesitará. Por otro lado, se encuentran los costos fijos, que no varían en función de la producción, por ejemplo, el valor del arriendo donde se ubica la fábrica siempre será el mismo, se les dé uso o no a la maquinaria.  
 
         .row(titulo="Según su relación con el producto")
-          .col-md-12.mb-4.mb-md-0
+          .col-10.col-lg-12.mb-4.mb-md-0
             p Se clasifican como directos o indirectos. Los primeros son aquellos que se pueden asignar de forma clara e inequívoca a las unidades producidas. Si, por ejemplo, se tiene claro que la elaboración de una artesanía toma una hora de trabajo a un empleado, el costo de ese tiempo se asignará como mano de obra directa. Los costos indirectos son los que no se pueden relacionar con la producción de manera tan clara, por ejemplo, los honorarios que cobra el mecánico que repara la maquinaria utilizada en la producción o los servicios públicos de la planta.  
             
         .row(titulo="Según su uso en planeación")
-          .col-md-12.mb-4.mb-md-0
+          .col-10.col-lg-12.mb-4.mb-md-0
             p En primer lugar, están los costos estimados, que surgen de metodologías de análisis y observación. No son exactos y su margen de error está condicionado al nivel de detalle en la que se haya efectuado los procedimientos de cálculos. Son aplicables a los insumos que no son materiales en el proceso de elaboración. En segundo lugar, se ubican los costos estándar, utilizados en empresas con volúmenes de producción significativos y bajo un sistema altamente repetitivo. Analizan la información histórica disponible, y anticipan el costo de producción a partir de ello, su margen de error suele ser muy bajo dado que trabajan con variables ya conocidas. 
     
     p.mb-5 En la siguiente figura se indican esta relación de los costos y la producción:  
